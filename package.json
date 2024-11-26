@@ -1,0 +1,13 @@
+{
+  "name": "darkblue-project",
+  "version": "1.0.0",
+  "description": "A project to create a platform video game",
+  "author": "Fernando-Mena",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
