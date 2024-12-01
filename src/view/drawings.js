@@ -1,4 +1,4 @@
-export const scale = 20;
+export const scale = 15;
 
 export function elt(nombre, attrs, ...children) {
     let dom = document.createElement(nombre);
