@@ -8,6 +8,7 @@ import {
     State
 } from "./core/state.js";
 import {
+    CanvasDisplay,
     DOMDisplay
 } from './view/display.js';
 import {
@@ -60,7 +61,7 @@ async function runGame(plans, Display) {
 };
 
 async function bootstrap() {
-    await runGame(GAME_LEVELS, DOMDisplay);
+    await runGame(GAME_LEVELS, CanvasDisplay);
 };
 
 bootstrap();
